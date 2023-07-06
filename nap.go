@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"git.kafefin.net/backend/kitchen/l"
+	"nap/l"
 
 	goquery "github.com/google/go-querystring/query"
 	"github.com/prometheus/client_golang/prometheus"

@@ -1,9 +1,8 @@
-module git.kafefin.net/backend/kitchen/nap
+module nap
 
 go 1.19
 
 require (
-	git.kafefin.net/backend/kitchen/l v0.0.0-20230515043718-bba21f6a192d
 	github.com/google/go-querystring v1.1.0
 	github.com/prometheus/client_golang v1.15.1
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.42.0
@@ -23,9 +22,6 @@ require (
 	go.opentelemetry.io/otel v1.16.0 // indirect
 	go.opentelemetry.io/otel/metric v1.16.0 // indirect
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
-	go.uber.org/atomic v1.11.0 // indirect
-	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 )
